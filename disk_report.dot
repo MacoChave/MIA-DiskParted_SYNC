@@ -1,0 +1,39 @@
+digraph {
+	graph[pad="0.5", nodesep="0.5", ranksep="2"]
+	node [shape = plain]
+	rankdir = LR
+	DISK [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" rowspan="2">MBR<br/>0.0003 % de Disco</td>
+				<td bgcolor="salmon" rowspan="2">Part12<br/>9.14 % de Disco</td>
+				<td bgcolor="salmon" rowspan="2">Part13<br/>9.14 % de Disco</td>
+				<td bgcolor="snow2" rowspan="2">Free<br/>9.14 % de Disco</td>
+				<td bgcolor="firebrick1" colspan="20">Extendida</td>
+				<td bgcolor="snow2" rowspan="2">Free<br/>38.67 % de Disco</td>
+			</tr>
+			<tr>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part16<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part17<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part18<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part19<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part20<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part21<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part22<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part23<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part24<br/>2.34 % de Disco</td>
+				<td bgcolor="crimson">EBR</td>
+				<td bgcolor="bisque">Part25<br/>2.34 % de Disco</td>
+			</tr>
+		</table>
+	>]
+}

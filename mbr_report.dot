@@ -1,0 +1,603 @@
+digraph {
+	graph[pad="0.5", nodesep="0.5", ranksep="2"]
+	node [shape = plain]
+	rankdir = LR
+	MBR [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">MBR Report</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">MBR Tamaño</td>
+				<td>52428800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">MBR Fecha de Creación</td>
+				<td>21/08/19 18:32</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">MBR Disk Signature</td>
+				<td>2010</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Disk fit</td>
+				<td>f</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1" colspan="2">Partición 0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part type</td>
+				<td>p</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>140</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>4792320</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part12</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1" colspan="2">Partición 1</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part type</td>
+				<td>p</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>w</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>4792460</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>4792320</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part13</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1" colspan="2">Partición 2</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part type</td>
+				<td>e</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>w</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>14377100</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>17776640</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part15</td>
+			</tr>
+		</table>
+	>]
+	EBR1 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 1</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>14377100</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>15605900</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part16</td>
+			</tr>
+		</table>
+	>]
+	EBR2 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 2</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>15605900</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>16834700</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part17</td>
+			</tr>
+		</table>
+	>]
+	EBR3 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 3</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>w</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>16834700</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>18063500</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part18</td>
+			</tr>
+		</table>
+	>]
+	EBR4 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 4</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>w</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>18063500</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>19292300</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part19</td>
+			</tr>
+		</table>
+	>]
+	EBR5 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 5</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>19292300</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>20521100</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part20</td>
+			</tr>
+		</table>
+	>]
+	EBR6 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 6</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>20521100</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>21749900</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part21</td>
+			</tr>
+		</table>
+	>]
+	EBR7 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 7</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>21749900</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>22978700</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part22</td>
+			</tr>
+		</table>
+	>]
+	EBR8 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 8</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>22978700</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>24207500</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part23</td>
+			</tr>
+		</table>
+	>]
+	EBR9 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 9</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>24207500</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>25436300</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part24</td>
+			</tr>
+		</table>
+	>]
+	EBR10 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 10</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>25436300</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>26665100</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part25</td>
+			</tr>
+		</table>
+	>]
+	EBR11 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 11</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>26665100</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>27893900</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part16</td>
+			</tr>
+		</table>
+	>]
+	EBR12 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 12</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>b</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>27893900</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>29122700</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part17</td>
+			</tr>
+		</table>
+	>]
+	EBR13 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 13</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>w</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>29122700</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>30351500</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part18</td>
+			</tr>
+		</table>
+	>]
+	EBR14 [label=<
+		<table border="0" cellborder="1" cellspacing="0">
+			<tr>
+				<td bgcolor="crimson" colspan="2">Reporte EBR 14</td>
+			</tr>
+			<tr>
+				<td bgcolor="firebrick1">Nombre</td>
+				<td bgcolor="firebrick1">Valor</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part status</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part fit</td>
+				<td>w</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part start</td>
+				<td>30351500</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part size</td>
+				<td>1228800</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part next</td>
+				<td>31580300</td>
+			</tr>
+			<tr>
+				<td bgcolor="salmon">Part name</td>
+				<td>Part19</td>
+			</tr>
+		</table>
+	>]
+}
