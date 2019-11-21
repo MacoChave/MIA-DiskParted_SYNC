@@ -1,6 +1,7 @@
 #ifndef SYNC_H
 #define SYNC_H
 
+#include <iostream>
 #include <QFile>
 #include <QTextStream>
 #include <QString>
@@ -17,7 +18,7 @@
 
 #include "../peticion.h"
 
-QJsonArray extractTree(Inode * current, int no_upper, int no_current)
+QJsonArray extractTree(Inode * current, int no_current)
 {
     QJsonArray array;
 
@@ -39,10 +40,10 @@ QJsonArray extractTree(Inode * current, int no_upper, int no_current)
                 object["no_inodo"] = db->content[j].inode;
                 object["nombre"] = db->content[j].name;
                 object["permiso"] = child->permission;
-                object["padre"] = (no_upper == 0) ? QJsonValue::Null : no_upper;
+                object["padre"] = (no_current == 0) ? QJsonValue::Null : no_current;
                 object["tipo"] = child->type;
 
-                QJsonArray content = extractTree(child, no_current, db->content[j].inode);
+                QJsonArray content = extractTree(child, db->content[j].inode);
                 object["contenido"] = content;
                 array.append(object);
             }
@@ -66,15 +67,29 @@ void syncTree(char disk[], char part[])
         root["disco"] = disk;
         root["particion"] = part;
 
-        QJsonArray content = extractTree(current, 0, 0);
+        QJsonArray users;
+        for(int i = 0; i < 20; i++) {
+            if (permissions[i].id > 0 && permissions[i].type == 'U') {
+                QJsonObject user;
+                user["nombre"] = permissions[i].name;
+                user["pass"] = permissions[i].pass;
+                users.append(user);
+            }
+        }
+
+        QJsonArray content = extractTree(current, 0);
+        root["usuarios"] = users;
         root["contenido"] = content;
 
         file.write(QJsonDocument(root).toJson(QJsonDocument::Indented));
 
         file.close();
 
+
         Peticion * peticion = new Peticion();
-        peticion->sendPost(peticion->SYNC, QJsonDocument(root).toJson(QJsonDocument::Indented));
+        QString response = "";
+        response = peticion->sendPost(peticion->SYNC, QJsonDocument(root).toJson(QJsonDocument::Indented));
+        printf(ANSI_COLOR_RED "[i] %s" ANSI_COLOR_RESET, response.toLatin1().data());
     }
 }
 
